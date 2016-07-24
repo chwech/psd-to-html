@@ -1,0 +1,247 @@
+/*reset*/
+html,body,ul,li,dl,dt,dd,div,p,section,a,h1,h2,h3,h4,h5,h6,img{
+	margin:0;
+	padding: 0;
+}
+li{list-style: none;}
+a{text-decoration:none;}
+/*清除浮动*/
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	*zoom=1;
+}
+/*pubilic*/
+.pubilic-width{
+	width: 1100px;
+	margin:0 auto;
+}
+.float-l{
+	float: left;
+}
+.float-r{
+	float: right;
+}
+/*pubilic-header*/
+.pubilic-header{
+	height: 110px;
+	margin: 0 auto;
+}
+.logo{
+	width:190px;
+	height: 60px;
+	margin-top:40px;
+	background: url(../images/logo.png) no-repeat;
+}
+.logo a{
+	display: inline-block;
+	width:190px;
+	height: 60px; 
+}
+.nav li{
+	float: left;
+	padding-left:50px; 
+	margin-top:49px; 
+}
+.nav li a{
+	font:14px "Aleo";
+	color:#3b3b3b;
+	font-weight: bold;
+}
+.nav li a:hover{
+	color: #f34949;
+}
+/*banner*/
+.banner{
+	height: 570px;
+	background:url(../images/banner.png);
+	text-align: center;
+	border-bottom:4px solid #f34949;
+}
+.banner img{
+	margin-top:207px;
+}
+.banner-text{
+	font:16px "Aleo";
+	color:#fff;
+	margin-top:18px; 
+
+}
+.banner-text i{
+	display:inline-block;
+	width:40px;
+	border-bottom:1px solid #fff;
+	vertical-align: middle;
+	margin:0 28px;
+}
+/*menu*/
+.menu-img{
+	width: 156px;
+	height: 70px;
+	text-align: center;
+	background-color:#f34949;
+	margin:0 auto;
+	font:20px/60px "Aleo";
+	color: #fff;
+	position:relative;
+}
+.menu-img:after{
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top:0px solid transparent;
+	border-left:78px solid transparent; 
+	border-right:78px solid transparent; 
+	border-bottom:10px solid #fff; 
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.menu-item{
+	margin-top:152px;
+}
+.menu-item dl{
+	width: 492px;
+	position: relative;
+	margin-bottom:60px; 
+}
+.menu-item dt{
+	font: 16px "Aleo";
+	font-weight: bold;
+	color:#555555;
+	
+}
+.menu-item dd{
+	font:12px/20px "Aleo";
+	font-weight: 100;
+	color:#b7b7b7;
+}
+.menu-item span{
+	position: absolute;
+	top:0;
+	right: 0;
+	font: 16px "Aleo";
+	color:#606060;
+}
+.menu-item i{
+	display: inline-block;
+	width: 192px;
+	height: 0;
+	border-top:1px solid #e3e1e1;
+	position: absolute;
+	top:10px;
+	right: 70px;
+}
+.menu-more{
+	
+	width: 132px;
+	height: 34px;
+	border:1px solid #d7d5d5;
+	margin:30px auto 0;
+}
+.menu-more a{
+	font:14px/34px "Aleo";
+	color:#b7b7b7;
+	border-right:1px solid #b7b7b7;
+	padding: 0 14px;
+}
+.menu-more i{
+	display: inline-block;
+	width:34px;
+	height: 7px;
+	background: url(../images/icon/icon.png) 11px center no-repeat;
+}
+/*eatured-Dishes*/
+.eatured-Dishes{
+	margin-top:200px;
+	position: relative; 
+}
+.eatured-Dishes h3{
+	font:bold 20px/20px "Aleo" ;
+	color:#3b3b3b;
+	margin-bottom: 80px;
+}
+.eatured-Dishes p{
+	font: 16px "Aleo";
+	color:#555555;
+	margin-top:28px; 
+}
+.eatured-Dishes .eatured-Dishes-l{
+	width: 230px;
+	height: 267px;
+	float: left;
+	margin-right:60px;
+	position: relative;
+}
+.eatured-Dishes .eatured-Dishes-r{
+	height: 267px;
+	float: right;
+	position: relative;
+}
+.eatured-Dishes img{
+	width:230px;
+	height: 200px;
+}
+.eatured-Dishes .star-bar{
+	position:absolute;
+	left:0;
+	bottom: 0;
+}
+.eatured-Dishes .star{
+	display: inline-block;
+	width: 12px;
+	height: 13px;
+	background: url(../images/icon/icon2.png) no-repeat;
+}
+.eatured-Dishes .no-star{
+	display: inline-block;
+	width: 12px;
+	height: 13px;
+	background: url(../images/icon/icon2.png) no-repeat;
+	background-position: 0 -13px;
+
+}
+/*gallery*/
+.gallery{
+	
+	margin:200px auto;
+}
+.gallery .Gallery{
+	height: 381px;
+	overflow:hidden;
+}
+.gallery h3{
+	font:bold 22px/22px "Aleo";
+	margin-bottom:130px;
+}
+.gallery-mid{
+	margin:0 460px 0 353px;
+}
+/*footer*/
+.footer{
+	background-color: #3b3b3b;
+	height: 317px;
+}
+.footer ul{
+	margin:92px 60px 0 0;
+	width: 230px;
+	font-size:16px;
+	font-family:"Aleo";
+	color:#fff;
+	line-height: 32px;
+}
+
+.footer .footer-logo{
+	margin-top:84px;
+	width: 230px;
+	font-size:14px;
+	font-family:"Aleo";
+	color:#fff;
+	line-height: 28px;
+}
