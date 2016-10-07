@@ -1,0 +1,39 @@
+
+#toTop{
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	border: 1px solid #fa0000;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	position: fixed;
+	bottom: 100px;
+	right: 150px;
+	display: none;
+}
+#toTop:hover{
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+}
+#toTop>.arrows{
+	width: 20px;
+	margin: 3px auto 0;
+}
+#toTop>.arrows>.triangle{
+	width: 0;
+	height: 0;
+	border-bottom:10px solid #fa0000;
+	border-top:10px solid transparent;
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;  
+} 
+#toTop>.arrows>.rectangle{
+	width: 10px;
+	height: 20px;
+	background-color: #fa0000;
+	margin-left: 5px;
+}
+
